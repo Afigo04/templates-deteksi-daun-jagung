@@ -28,7 +28,7 @@
                 {% for item in items %}
                 <tr>
                     <td class="border-2 border-black p-4 text-center">{{ item.timestamps }}</td>
-                    <td class="border-2 border-black p-4 w-auto"><img src="{{ item.image_url }}" alt="" class="w-1/4 mx-auto"></td>
+                    <td class="border-2 border-black p-4"><img src="{{ item.image_url }}" alt="" class="w-1/4 mx-auto"></td>
                     <td class="text-center border-2 border-black p-4">{{ item.prediction }}</td>
                 </tr>
                 {% endfor %}
